@@ -5,14 +5,19 @@
 
 	color-scheme: light dark;
 	color: rgba(255, 255, 255, 0.87);
-	background-color: #07203c;
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 
-	border: 20px solid #00a2bc;
+	background: radial-gradient(
+		circle,
+		rgba(216, 248, 255, 0.15),
+		rgba(0, 0, 0, 0) 90%
+	);
+	background-color: #07203c;
+	/* border: 20px solid #00a2bc; */
 }
 
 a {
