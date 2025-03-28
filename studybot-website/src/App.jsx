@@ -5,7 +5,7 @@ import "./App.css";
 const App = () => {
 	return (
 		<div className="crt-lines">
-			<img src="src\assets\concept_app.jpg" className="reference-image"></img>
+			{/* <img src="src\assets\concept_app.jpg" className="reference-image"></img> */}
 			<Header />
 			<Nav />
 		</div>

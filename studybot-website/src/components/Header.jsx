@@ -19,9 +19,9 @@ const Header = () => {
   });
   
   return (
-	<div className="headerbar">
-	  <h2>{formattedTime}</h2>
-	</div>
+	<h2 className="headerbar">
+	  {formattedTime}
+	</h2>
   );
 };
 
