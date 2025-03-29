@@ -29,6 +29,7 @@
 	padding: 60px 0 60px 35%;
 	font-family: "Courier New", Courier, monospace;
 	width: 100%;
+	color: #f8f8f8;
 	/* color: #00a2bc; */
 }
 
@@ -57,20 +58,27 @@
 }
 
 .crt-lines {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: repeating-linear-gradient(
-	0deg,
-	rgba(0, 0, 0, 0.15),
-	rgba(0, 0, 0, 0.15) 1px,
-	transparent 1px,
-	transparent 4px
-  );
-  pointer-events: none;
-  z-index: 9999;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: repeating-linear-gradient(
+		0deg,
+		rgba(0, 0, 0, 0.15),
+		rgba(0, 0, 0, 0.15) 1px,
+		transparent 1px,
+		transparent 4px
+	);
+	pointer-events: none;
+	z-index: 9999;
+}
+
+.center-TEMPORARY {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .logo {
